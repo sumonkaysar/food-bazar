@@ -271,16 +271,17 @@ nav ul li a {
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
-.popular-items h4 {
+h4.title {
     color: #f48e28;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
 }
 
-.popular-items h2 {
+h2.secondary-title {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -352,11 +353,6 @@ nav ul li a {
     margin-top: 25px;
 }
 
-.see-more-btn {
-    text-align: center;
-    margin-bottom: 100px;
-}
-
 .see-more-btn button {
     border: none;
     background: #f48e28;
@@ -381,4 +377,58 @@ nav ul li a {
     border: 2px solid white;
     border-radius: 20px;
 }
+
 /* popular items ends */
+
+/* why choose us starts */
+.why-choose-us {
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.service {
+    padding: 103px 52px;
+    border-radius: 35px;
+    border: 1px solid #b6b6b6;
+    cursor: pointer;
+    transition: box-shadow .4s;
+}
+
+.service:hover {
+    border: 0;
+    box-shadow: 0px 20px 80px 0px #00000026;
+}
+
+.service span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 98px;
+    background: #f5ddc4;
+    border-radius: 50px;
+    color: #f48e28;
+    margin: 0 auto;
+    font-size: 35px;
+}
+
+.service h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.service p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* why choose us ends */
