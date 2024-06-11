@@ -645,6 +645,18 @@ h2.secondary-title {
     text-transform: uppercase;
 }
 
+#subscribe-result{
+    margin-top: 15px;
+}
+
+#subscribe-result .success{
+    color: #00d81d;
+}
+
+#subscribe-result .error{
+    color: #ff0909;
+}
+
 /* newsletter ends */
 
 /* footer starts */
